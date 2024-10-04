@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/particlesjs-config.json', (req, res) => {
-    res.sendFile(path.join(__dirname, '/node_modules/particles.js/particlesjs-config.json'));
+    res.sendFile(path.join(__dirname, 'node_modules/particles.js/particlesjs-config.json'));
 });
 
 const PORT = process.env.PORT || 3000;
