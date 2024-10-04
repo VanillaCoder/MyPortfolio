@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liam Hartigan | The Technicals</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+    <script src="/code.js"></script>
+    <script src="/node_modules/particles.js/particles.js"></script>
+
+</head>
+
+<body>
+
+    <main>
+        <!-- Keep the particles-js div here -->
+        <div class="fade-in" id="particles-js"></div>
+
+        <section id="home" class="section">
+            <div class="container">
+                <div class="heading">
+                    <div class="heading-line-1">Hello, I'm <span class="liam">Liam</span>.</div>
+                    <div class="heading-line-2">Tech enthusiast and lifelong learner.</div>
+                    <a href="#about" class="main-button-link">
+                        <div class="main-button-container">
+                            <div class="main-button">Learn more</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <header class="header hidden sticky-header">
+            <nav class="nav-bar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="about" class="section">
+            <h1 class="section-heading">
+                <p>About</p>
+            </h1>
+            <div class="container">
+                <div class="about-left-column">
+                    <img class="about-avatar" src="images/avatar.png" alt="avatar">
+                    <p class="about-text">From building my first PC with hand-me-down parts to diving into complex
+                        software systems, I've always been fascinated by how technology works. This passion has
+                        naturally driven me to pursue a career behind the scenes, working on the very products I’ve
+                        always admired. My journey in tech has been fueled by the inspiring community and the incredible
+                        people I’ve met. I’m excited to continue pushing boundaries, both personally and professionally.
+                    </p>
+                    <p class="about-text">
+                        <a href="images/Liam Hartigan Resume.pdf" target="_blank" class="resume-link" style="color: #50a3de;">
+                            <span class="resume-icon">📄</span> View my resume
+                        </a>
+                    </p>
+                </div>
+                <div class="about-right-column">
+                    <div class="skill-column">
+                        <div class="skill-box">
+                            <img class="about-icon" src="images/html.png" alt="html icon">
+                            <p>HTML</p>
+                        </div>
+                        <div class="skill-box">
+                            <img class="about-icon" src="images/javascript.png" alt="javascript icon">
+                            <p>JAVASCRIPT</p>
+                        </div>
+                    </div>
+                    <div class="skill-column">
+                        <div class="skill-box">
+                            <img class="about-icon" src="images/css.png" alt="css icon">
+                            <p>CSS</p>
+                        </div>
+                        <div class="skill-box">
+                            <img class="about-icon" src="images/gitbash.png" alt="gitbash icon">
+                            <p>GIT/BASH</p>
+                        </div>
+                        <div class="skill-box">
+                            <img class="about-icon" src="images/react.png" alt="React icon">
+                            <p>REACT</p>
+                        </div>
+                        <div class="skill-box">
+                            <img class="about-icon" src="images/sql.png" alt="SQL icon">
+                            <p>SQL</p>
+                        </div>
+                    </div>
+                    <div class="skill-column">
+                        <div class="skill-box">
+                            <img class="about-icon" src="images/express.png" alt="express icon">
+                            <p>EXPRESS.JS</p>
+                        </div>
+                        <div class="skill-box">
+                            <img class="about-icon" src="images/node.png" alt="node icon">
+                            <p>NODE.JS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="projects-container">
+                <h1 class="section-heading">
+                    <p>Projects</p>
+                </h1>
+                <!-- Add your projects content here -->
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <img class="project-image-left" src="images/rogue.jpeg" alt="project 1">
+                        <a href="https://github.com/VanillaCoder/RogueScavenger" target="_blank" class="project-button">
+                            View on GitHub
+                        </a>
+                        <a href="https://vanillacoder.github.io/RogueScavenger/" target="_blank" class="project-button">
+                            Live site
+                        </a>
+                    </div>
+                    <div class="project-description-right">
+                        <h3 class="project-title">Rogue Scavenger</h3>
+                        <p class="project-text">As a rogue scavenger you find yourself in an unknown place looking for scraps of forgotten treasure. Today you find yourself in a temple lost to time. It was a difficult journey to get this far and it looks like gathering all the tresure here is going to be just as difficult... This was my attempt at building my own game engine.</p>
+                        <h4 class="project-technologies-title">Technologies Used:</h4>
+                        <ol class="project-technologies">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-description-left">
+                        <h3 class="project-title">Remember Click</h3>
+                        <p class="project-text">RememberClick is a memory game with a simple goal: There are 15 tiles, each one displaying a unique character from a TV series. Click each character's tile once and you win! Click the same character twice, and you lose!
+
+                            There is a hidden twist integrated into the game which I believe increases the difficulty, and fun, you'll have to play to find out! This fun little effect is not mobile friendly though so beware!</p>
+                    <h4 class="project-technologies-title">Technologies Used:</h4>
+                    <ol class="project-technologies">
+                        <li>HTML</li>
+                        <li>SASS</li>
+                        <li>CSS</li>
+                        <li>REACT</li>
+                        <li>JAVASCRIPT</li>
+                    </ol>
+                    </div>
+                    <div class="project-image-container">
+                        <img class="project-image-left" src="images/rememberclick.png" alt="project 1">
+                        <a href="https://github.com/VanillaCoder/RememberClick" target="_blank" class="project-button">
+                            View on GitHub
+                        </a>
+                        <a href="https://vanillacoder.github.io/RememberClick/" target="_blank" class="project-button">
+                            Live site
+                        </a>
+                    </div>                </div>
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <img class="project-image-left" src="images/traintracker.png" alt="project 1">
+                        <a href="https://github.com/VanillaCoder/trainTracker" target="_blank" class="project-button">
+                            View on GitHub
+                        </a>
+                        <a href="https://vanillacoder.github.io/trainTracker/" target="_blank" class="project-button">
+                            Live site
+                        </a>
+                    </div>                    <div class="project-description-right">
+                        <h3 class="project-title">Train Tracker</h3>
+                        <p class="project-text">An app that allows you to enter in a trains first arrival and frequency of arrivals and be shown the next time the train will be at the station. All train information is permanently stored in a databse.</p>
+                        <h4 class="project-technologies-title">Technologies Used:</h4>
+                        <ol class="project-technologies">
+                            <li>HTML</li>
+                            <li>TIME.JS</li>
+                            <li>CSS</li>
+                            <li>FIREBASE</li>
+                            <li>JAVASCRIPT</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-description-left">
+                        <h3 class="project-title">Where2Go</h3>
+                        <p class="project-text">Where2Go is site that allows users to quickly find events and weather for the current and next 6 days.</p>
+                        <h4 class="project-technologies-title">Technologies Used:</h4>
+                        <ol class="project-technologies">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JAVASCRIPT</li>
+                            <li>SASS</li>
+                            <li>MATERIALIZE</li>
+                            <li>JQUERY</li>
+                            <li>YELP FUSION API</li>
+                            <li>OPENWEATHERMAPS API</li>
+                        </ol>
+                       
+                    </div>
+                    <div class="project-image-container">
+                        <img class="project-image-left" src="images/where2go.png" alt="project 1">
+                        <a href="https://github.com/VanillaCoder/Where2Go" target="_blank" class="project-button">
+                            View on GitHub
+                        </a>
+                        <a href="https://alex-engelmann.github.io/Where2Go/" target="_blank" class="project-button">
+                            Live site
+                        </a>
+                    </div>                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="contact-container">
+                <h1 class="section-heading">
+                    <p>Contact</p>
+                </h1>
+                <h1 class="email-text">LiamOHartigan@gmail.com</h1>
+                <!-- <p class="socials-text">My Socials</p> -->
+                <div style="display: flex; flex-direction: row; justify-content: center; gap: 1rem;">
+                    <a href="https://www.linkedin.com/in/liam-o-hartigan/" target="_blank" class="project-button">
+                        LinkedIn
+                    </a>
+                    <a href="https://www.linkedin.com/in/liam-o-hartigan/" target="_blank" class="project-button">
+                        Github
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Add your footer content here -->
+    </footer>
+
+
+
+</body>
+
+</html>
